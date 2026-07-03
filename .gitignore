@@ -1,0 +1,6 @@
+# Baskı menüsü ara/fallback çıktısı — script'ten üretilir, sürüm kontrolüne girmez.
+# (Kalıcı çıktı yalnızca menu-baski.pdf'tir.)
+menu-baski.html
+
+# macOS
+.DS_Store
