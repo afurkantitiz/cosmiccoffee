@@ -97,6 +97,82 @@ img { max-width: 100%; display: block; }
 }
 
 /* ============================================================
+   INTRO SPLASH
+   First load: the logo ignites, an ember ring pulses outward
+   (a cosmic heartbeat), then the logo ascends as the hero rises
+   in behind it. Pure-CSS timeline; app.js only cleans up + syncs.
+   ============================================================ */
+.splash {
+  position: fixed; inset: 0; z-index: 200;
+  display: grid; place-items: center;
+  /* same void + nebula as the page, so the reveal is seamless */
+  background:
+    radial-gradient(900px 640px at 50% 44%, rgba(209,26,42,0.12), transparent 60%),
+    radial-gradient(900px 700px at 85% 12%, rgba(60,64,110,0.14), transparent 55%),
+    radial-gradient(1000px 800px at 12% 88%, rgba(40,44,88,0.10), transparent 55%),
+    var(--void);
+  animation: splashLift 0.75s var(--ease) 1.95s forwards;
+}
+.splash__stage {
+  position: relative;
+  display: grid; place-items: center;
+  animation: splashRise 0.8s var(--ease) 1.95s forwards;
+}
+.splash__logo {
+  position: relative; z-index: 1;
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow:
+    0 0 0 1px rgba(220,220,225,0.12),
+    0 0 0 6px var(--void),
+    0 0 0 7px rgba(220,220,225,0.05);
+  animation: splashIgnite 1.95s var(--ease) both;
+}
+/* ember rings blooming outward — the signature "heartbeat" */
+.splash__ring {
+  position: absolute; top: 50%; left: 50%;
+  width: 200px; height: 200px; margin: -100px 0 0 -100px;
+  border-radius: 50%;
+  border: 1px solid var(--ember);
+  opacity: 0;
+  animation: splashRing 1.7s var(--ease) 0.55s;
+}
+.splash__ring--2 { animation-delay: 1.05s; }
+
+@keyframes splashIgnite {
+  0%   { opacity: 0; transform: scale(0.72);
+         box-shadow: 0 0 0 1px rgba(220,220,225,0.12), 0 0 0 6px var(--void), 0 0 0 0 rgba(209,26,42,0); }
+  26%  { opacity: 1; transform: scale(1.03);
+         box-shadow: 0 0 0 1px rgba(220,220,225,0.16), 0 0 0 6px var(--void), 0 0 70px 6px var(--ember-glow); }
+  50%  { transform: scale(1);            /* yansın — brightest bloom */
+         box-shadow: 0 0 0 1px rgba(220,220,225,0.20), 0 0 0 6px var(--void), 0 0 130px 18px rgba(209,26,42,0.55); }
+  74%  { transform: scale(1);            /* sönsün — settles back */
+         box-shadow: 0 0 0 1px rgba(220,220,225,0.14), 0 0 0 6px var(--void), 0 0 56px 4px var(--ember-glow); }
+  100% { opacity: 1; transform: scale(1);
+         box-shadow: 0 0 0 1px rgba(220,220,225,0.16), 0 0 0 6px var(--void), 0 0 84px 8px var(--ember-glow); }
+}
+@keyframes splashRing {
+  0%   { opacity: 0.6; transform: scale(0.9); border-color: var(--ember); }
+  70%  { opacity: 0; }
+  100% { opacity: 0; transform: scale(2.15); border-color: var(--ember-lo); }
+}
+@keyframes splashRise {   /* logo travels up and out */
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to   { opacity: 0; transform: translateY(-150px) scale(0.86); }
+}
+@keyframes splashLift {   /* overlay fades to reveal the menu */
+  to   { opacity: 0; visibility: hidden; }
+}
+
+/* hold the hero's entrance until the splash begins to lift (handoff) */
+html.booting .hero__logo,
+html.booting .hero__wordmark,
+html.booting .hero__sub,
+html.booting .hero__tag,
+html.booting .hero__meta { animation-play-state: paused; }
+
+/* ============================================================
    HERO
    ============================================================ */
 .hero {
@@ -475,4 +551,5 @@ main { padding: 20px 0 40px; }
   html { scroll-behavior: auto; }
   *, body::after { animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
+  .splash { display: none !important; }   /* skip the intro entirely */
 }

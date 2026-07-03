@@ -33,6 +33,26 @@
   const nodesByCat = {};   // slug -> section element
   const itemNodes = [];    // { node, hay(name+desc), catSlug }
 
+  /* ---------- intro splash ---------- */
+  (function splash() {
+    const root = document.documentElement;
+    const node = document.getElementById('splash');
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!node || reduce) {                 // no splash → let the hero show at once
+      if (node) node.remove();
+      root.classList.remove('booting');
+      return;
+    }
+    // the overlay's lift animation is the clock everything else follows
+    node.addEventListener('animationstart', (e) => {
+      if (e.animationName === 'splashLift') root.classList.remove('booting'); // hero rises in
+    });
+    node.addEventListener('animationend', (e) => {
+      if (e.animationName === 'splashLift') node.remove();                    // cleanup
+    });
+  })();
+
   /* ---------- boot ---------- */
   fetch(DATA_URL)
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
