@@ -1,0 +1,1435 @@
+{
+  "restaurant": {
+    "name": "Cosmic",
+    "nameFull": "Cosmic Coffee & More",
+    "tagline": "Yeni Nesil Kahve Dükkanı",
+    "slogan": "Coffee & More",
+    "logo": "assets/logo.jpg",
+    "address": "Atatürk Bulvarı No:29 Bafra, Samsun",
+    "hours": "09:00 – 00:00",
+    "phone": "+90 542 426 00 34",
+    "whatsapp": "905424260034",
+    "instagram": "cosmicco.bafra",
+    "instagramUrl": "https://instagram.com/cosmicco.bafra",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cosmic+Coffee+%26+More+Bafra+Samsun",
+    "currency": "₺"
+  },
+  "allergenLegend": {
+    "sut": {
+      "label": "Süt / Laktoz",
+      "icon": "🥛"
+    },
+    "gluten": {
+      "label": "Gluten",
+      "icon": "🌾"
+    },
+    "yumurta": {
+      "label": "Yumurta",
+      "icon": "🥚"
+    },
+    "sertkabuklu": {
+      "label": "Sert Kabuklu Yemişler",
+      "icon": "🥜"
+    },
+    "soya": {
+      "label": "Soya",
+      "icon": "🫘"
+    },
+    "susam": {
+      "label": "Susam",
+      "icon": "◍"
+    },
+    "sulfit": {
+      "label": "Sülfit",
+      "icon": "🍇"
+    }
+  },
+  "nutritionNote": "Kalori ve alerjen değerleri ürün tipine ve standart porsiyona göre hesaplanmış ortalama/tahmini değerlerdir. Hazırlanış ve porsiyona göre değişebilir. Gıda alerjiniz varsa lütfen personelimize danışın.",
+  "categories": [
+    {
+      "slug": "tatlilar",
+      "name": "Tatlılar",
+      "fullName": "Tatlılar         ( Kahvesi bizden tatması sizden)",
+      "subtitle": "Kahvesi bizden, tatması sizden",
+      "icon": "🍰",
+      "items": [
+        {
+          "id": "201339",
+          "name": "Çilekli Magnolya",
+          "description": "",
+          "price": 210.0,
+          "priceFormatted": "210,00 ₺",
+          "image": "assets/products/201339.webp",
+          "calories": 320,
+          "allergens": [
+            "sut",
+            "gluten"
+          ]
+        },
+        {
+          "id": "171944",
+          "name": "Lotus & Muz Rulo Pasta",
+          "description": "Çikolata sosu kaplı, muzlu pasta.",
+          "price": 280.0,
+          "priceFormatted": "280,00 ₺",
+          "image": "assets/products/171944.webp",
+          "calories": 385,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta",
+            "soya"
+          ]
+        },
+        {
+          "id": "204507",
+          "name": "Lotus Trileçe",
+          "description": "",
+          "price": 260.0,
+          "priceFormatted": "260,00 ₺",
+          "image": "assets/products/204507.webp",
+          "calories": 345,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "101183",
+          "name": "Lotus Cheesecake",
+          "description": "",
+          "price": 280.0,
+          "priceFormatted": "280,00 ₺",
+          "image": "assets/products/101183.webp",
+          "calories": 400,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "101180",
+          "name": "San Sebastian Cheesecake",
+          "description": "",
+          "price": 300.0,
+          "priceFormatted": "300,00 ₺",
+          "image": "assets/products/101180.webp",
+          "calories": 430,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "155303",
+          "name": "DONUT",
+          "description": "",
+          "price": 120.0,
+          "priceFormatted": "120,00 ₺",
+          "image": "assets/products/155303.webp",
+          "calories": 300,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta",
+            "soya"
+          ]
+        },
+        {
+          "id": "148508",
+          "name": "BERLINER",
+          "description": "",
+          "price": 150.0,
+          "priceFormatted": "150,00 ₺",
+          "image": "assets/products/148508.webp",
+          "calories": 330,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "101184",
+          "name": "Tiramisu",
+          "description": "",
+          "price": 280.0,
+          "priceFormatted": "280,00 ₺",
+          "image": "assets/products/101184.webp",
+          "calories": 380,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "101186",
+          "name": "Browni",
+          "description": "",
+          "price": 210.0,
+          "priceFormatted": "210,00 ₺",
+          "image": "assets/products/101186.webp",
+          "calories": 400,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta",
+            "sertkabuklu",
+            "soya"
+          ]
+        },
+        {
+          "id": "148511",
+          "name": "Frambuaz Cheesecake",
+          "description": "",
+          "price": 280.0,
+          "priceFormatted": "280,00 ₺",
+          "image": "assets/products/148511.webp",
+          "calories": 390,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "283139",
+          "name": "Çikolatalı Muffın",
+          "description": "",
+          "price": 140.0,
+          "priceFormatted": "140,00 ₺",
+          "image": "assets/products/283139.webp",
+          "calories": 360,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta",
+            "soya"
+          ]
+        },
+        {
+          "id": "283140",
+          "name": "VİŞNELİ MUFFIN",
+          "description": "",
+          "price": 140.0,
+          "priceFormatted": "140,00 ₺",
+          "image": "assets/products/283140.webp",
+          "calories": 340,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "283141",
+          "name": "Limonlu Cheesecake",
+          "description": "",
+          "price": 280.0,
+          "priceFormatted": "280,00 ₺",
+          "image": "assets/products/283141.webp",
+          "calories": 380,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "210386",
+          "name": "PROFİTEROL",
+          "description": "",
+          "price": 210.0,
+          "priceFormatted": "210,00 ₺",
+          "image": "assets/products/210386.webp",
+          "calories": 420,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta",
+            "soya"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "espresso",
+      "name": "Espresso Bazlı",
+      "fullName": "Espresso Bazlı İçecekler",
+      "subtitle": "",
+      "icon": "☕",
+      "items": [
+        {
+          "id": "101070",
+          "name": "Espresso",
+          "description": "",
+          "price": 130.0,
+          "priceFormatted": "130,00 ₺",
+          "image": "assets/products/101070.webp",
+          "calories": 5,
+          "allergens": []
+        },
+        {
+          "id": "101071",
+          "name": "Double Espresso",
+          "description": "",
+          "price": 150.0,
+          "priceFormatted": "150,00 ₺",
+          "image": "assets/products/101071.webp",
+          "calories": 10,
+          "allergens": []
+        },
+        {
+          "id": "101072",
+          "name": "Risretto Bianco",
+          "description": "",
+          "price": 150.0,
+          "priceFormatted": "150,00 ₺",
+          "image": "assets/products/101072.webp",
+          "calories": 110,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101073",
+          "name": "Cortado",
+          "description": "",
+          "price": 150.0,
+          "priceFormatted": "150,00 ₺",
+          "image": "assets/products/101073.webp",
+          "calories": 70,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101074",
+          "name": "Flat White",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101074.webp",
+          "calories": 150,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101078",
+          "name": "Americano",
+          "description": "",
+          "price": 170.0,
+          "priceFormatted": "170,00 ₺",
+          "image": "assets/products/101078.webp",
+          "calories": 10,
+          "allergens": []
+        },
+        {
+          "id": "101082",
+          "name": "Cappucino",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101082.webp",
+          "calories": 120,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101084",
+          "name": "Latte",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101084.webp",
+          "calories": 150,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101085",
+          "name": "Karamel Latte",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101085.webp",
+          "calories": 230,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101089",
+          "name": "Irish Cream Latte",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101089.webp",
+          "calories": 230,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101091",
+          "name": "Pumpkin Spice Latte",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101091.webp",
+          "calories": 250,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101086",
+          "name": "Mocha",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101086.webp",
+          "calories": 290,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101087",
+          "name": "White Mocha",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101087.webp",
+          "calories": 300,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101088",
+          "name": "Nutella Milk Coffee",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/101088.webp",
+          "calories": 320,
+          "allergens": [
+            "sut",
+            "sertkabuklu",
+            "soya"
+          ]
+        },
+        {
+          "id": "101090",
+          "name": "Hazelnut Coffee",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101090.webp",
+          "calories": 230,
+          "allergens": [
+            "sut",
+            "sertkabuklu"
+          ]
+        },
+        {
+          "id": "231688",
+          "name": "AFFOGATO",
+          "description": "",
+          "price": 230.0,
+          "priceFormatted": "230,00 ₺",
+          "image": "assets/products/231688.webp",
+          "calories": 200,
+          "allergens": [
+            "sut",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "183180",
+          "name": "Toffeenut Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183180.webp",
+          "calories": 250,
+          "allergens": [
+            "sut",
+            "sertkabuklu"
+          ]
+        },
+        {
+          "id": "183181",
+          "name": "Ballı Zencefilli Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183181.webp",
+          "calories": 200,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "183182",
+          "name": "Bal Tarçın Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183182.webp",
+          "calories": 200,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "183183",
+          "name": "Lotus Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183183.webp",
+          "calories": 250,
+          "allergens": [
+            "sut",
+            "gluten",
+            "soya"
+          ]
+        },
+        {
+          "id": "183184",
+          "name": "Chai Tea Latte",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/183184.webp",
+          "calories": 200,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "183185",
+          "name": "Coco Latte",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/183185.webp",
+          "calories": 230,
+          "allergens": [
+            "sut",
+            "sertkabuklu"
+          ]
+        },
+        {
+          "id": "177074",
+          "name": "Tahinli Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/177074.webp",
+          "calories": 250,
+          "allergens": [
+            "sut",
+            "susam"
+          ]
+        },
+        {
+          "id": "177075",
+          "name": "Raspberry Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/177075.webp",
+          "calories": 220,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "177076",
+          "name": "XXX Cosmic Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/177076.webp",
+          "calories": 260,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "213954",
+          "name": "MATCHA LATTE",
+          "description": "",
+          "price": 230.0,
+          "priceFormatted": "230,00 ₺",
+          "image": "assets/products/213954.webp",
+          "calories": 180,
+          "allergens": [
+            "sut"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sicak-cikolata",
+      "name": "Sıcak Çikolata & Salep",
+      "fullName": "Sıcak Çikolata & Salep",
+      "subtitle": "",
+      "icon": "🍫",
+      "items": [
+        {
+          "id": "101100",
+          "name": "Sıcak Çikolata",
+          "description": "",
+          "price": 170.0,
+          "priceFormatted": "170,00 ₺",
+          "image": "assets/products/101100.webp",
+          "calories": 300,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101101",
+          "name": "Çilekli Sıcak Çikolata",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101101.webp",
+          "calories": 310,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101102",
+          "name": "Fındıklı Sıcak Çikolata",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101102.webp",
+          "calories": 330,
+          "allergens": [
+            "sut",
+            "soya",
+            "sertkabuklu"
+          ]
+        },
+        {
+          "id": "101103",
+          "name": "Karamel Sıcak Çikolata",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101103.webp",
+          "calories": 320,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101105",
+          "name": "Sıcak Beyaz Çikolata",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101105.webp",
+          "calories": 320,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101106",
+          "name": "Salep",
+          "description": "",
+          "price": 160.0,
+          "priceFormatted": "160,00 ₺",
+          "image": "assets/products/101106.webp",
+          "calories": 200,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101107",
+          "name": "Damla Sakızlı Salep",
+          "description": "",
+          "price": 170.0,
+          "priceFormatted": "170,00 ₺",
+          "image": "assets/products/101107.webp",
+          "calories": 210,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101108",
+          "name": "Çikolatalı Salep",
+          "description": "",
+          "price": 170.0,
+          "priceFormatted": "170,00 ₺",
+          "image": "assets/products/101108.webp",
+          "calories": 240,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101109",
+          "name": "Chai Tea Salep",
+          "description": "",
+          "price": 170.0,
+          "priceFormatted": "170,00 ₺",
+          "image": "assets/products/101109.webp",
+          "calories": 220,
+          "allergens": [
+            "sut"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yeni-nesil",
+      "name": "Yeni Nesil Kahveler",
+      "fullName": "Yeni Nesil Kahveler",
+      "subtitle": "",
+      "icon": "⚗️",
+      "items": [
+        {
+          "id": "101165",
+          "name": "Chemex",
+          "description": "2 Kişilik",
+          "price": 260.0,
+          "priceFormatted": "260,00 ₺",
+          "image": "assets/products/101165.webp",
+          "calories": 10,
+          "allergens": []
+        },
+        {
+          "id": "101167",
+          "name": "Syphon",
+          "description": "2 Kişilik",
+          "price": 270.0,
+          "priceFormatted": "270,00 ₺",
+          "image": "assets/products/101167.webp",
+          "calories": 10,
+          "allergens": []
+        },
+        {
+          "id": "101168",
+          "name": "V60",
+          "description": "2 Kişilik",
+          "price": 260.0,
+          "priceFormatted": "260,00 ₺",
+          "image": "assets/products/101168.webp",
+          "calories": 10,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "slug": "turk-kahvesi",
+      "name": "Türk Kahvesi",
+      "fullName": "Türk Kahvesi Çeşitleri",
+      "subtitle": "",
+      "icon": "🇹🇷",
+      "items": [
+        {
+          "id": "101094",
+          "name": "Türk Kahvesi",
+          "description": "",
+          "price": 100.0,
+          "priceFormatted": "100,00 ₺",
+          "image": "assets/products/101094.webp",
+          "calories": 15,
+          "allergens": []
+        },
+        {
+          "id": "101095",
+          "name": "Aromalı Türk Kahveleri",
+          "description": "",
+          "price": 110.0,
+          "priceFormatted": "110,00 ₺",
+          "image": "assets/products/101095.webp",
+          "calories": 20,
+          "allergens": []
+        },
+        {
+          "id": "101096",
+          "name": "Osmanlı Dibek Kahve",
+          "description": "",
+          "price": 110.0,
+          "priceFormatted": "110,00 ₺",
+          "image": "assets/products/101096.webp",
+          "calories": 25,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "slug": "filtre",
+      "name": "Filtre Kahve",
+      "fullName": "Filtre Kahve & Çeşitleri",
+      "subtitle": "",
+      "icon": "🫖",
+      "items": [
+        {
+          "id": "101113",
+          "name": "Sade Filtre",
+          "description": "",
+          "price": 160.0,
+          "priceFormatted": "160,00 ₺",
+          "image": "assets/products/101113.webp",
+          "calories": 5,
+          "allergens": []
+        },
+        {
+          "id": "101115",
+          "name": "Sütlü Filtre Kahve",
+          "description": "",
+          "price": 170.0,
+          "priceFormatted": "170,00 ₺",
+          "image": "assets/products/101115.webp",
+          "calories": 60,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101117",
+          "name": "Aromalı Filtre Kahveler",
+          "description": "",
+          "price": 170.0,
+          "priceFormatted": "170,00 ₺",
+          "image": "assets/products/101117.webp",
+          "calories": 15,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "slug": "cay",
+      "name": "Çay & Bitki Çayları",
+      "fullName": "Çay & Bitki & Meyve Çayları",
+      "subtitle": "",
+      "icon": "🍵",
+      "items": [
+        {
+          "id": "101120",
+          "name": "Yeşil Çaylar",
+          "description": "",
+          "price": 140.0,
+          "priceFormatted": "140,00 ₺",
+          "image": "assets/products/101120.webp",
+          "calories": 2,
+          "allergens": []
+        },
+        {
+          "id": "101121",
+          "name": "Ada Çayı",
+          "description": "",
+          "price": 140.0,
+          "priceFormatted": "140,00 ₺",
+          "image": "assets/products/101121.webp",
+          "calories": 2,
+          "allergens": []
+        },
+        {
+          "id": "101122",
+          "name": "Çay",
+          "description": "",
+          "price": 50.0,
+          "priceFormatted": "50,00 ₺",
+          "image": "assets/products/101122.webp",
+          "calories": 2,
+          "allergens": []
+        },
+        {
+          "id": "101123",
+          "name": "Fincan Çay",
+          "description": "",
+          "price": 100.0,
+          "priceFormatted": "100,00 ₺",
+          "image": "assets/products/101123.webp",
+          "calories": 2,
+          "allergens": []
+        },
+        {
+          "id": "101124",
+          "name": "Karton Çay",
+          "description": "",
+          "price": 100.0,
+          "priceFormatted": "100,00 ₺",
+          "image": null,
+          "calories": 2,
+          "allergens": []
+        },
+        {
+          "id": "183193",
+          "name": "Kış Çayı",
+          "description": "",
+          "price": 140.0,
+          "priceFormatted": "140,00 ₺",
+          "image": "assets/products/183193.webp",
+          "calories": 45,
+          "allergens": []
+        },
+        {
+          "id": "183194",
+          "name": "Elma Tarçın Çayı",
+          "description": "",
+          "price": 140.0,
+          "priceFormatted": "140,00 ₺",
+          "image": "assets/products/183194.webp",
+          "calories": 40,
+          "allergens": []
+        },
+        {
+          "id": "183195",
+          "name": "Ihlamur",
+          "description": "",
+          "price": 140.0,
+          "priceFormatted": "140,00 ₺",
+          "image": "assets/products/183195.webp",
+          "calories": 2,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "slug": "soguk-kahve",
+      "name": "Soğuk Kahveler",
+      "fullName": "Soğuk Kahveler",
+      "subtitle": "",
+      "icon": "🧊",
+      "items": [
+        {
+          "id": "101128",
+          "name": "Ice Chai Tea Latte",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101128.webp",
+          "calories": 200,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101129",
+          "name": "Ice Mocha",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101129.webp",
+          "calories": 280,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101130",
+          "name": "Ice White Mocha",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101130.webp",
+          "calories": 290,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101131",
+          "name": "Ice Latte",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101131.webp",
+          "calories": 130,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101133",
+          "name": "Ice Karamel Latte",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101133.webp",
+          "calories": 230,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101135",
+          "name": "Ice Americano",
+          "description": "",
+          "price": 170.0,
+          "priceFormatted": "170,00 ₺",
+          "image": "assets/products/101135.webp",
+          "calories": 15,
+          "allergens": []
+        },
+        {
+          "id": "101137",
+          "name": "Ice Chocolate",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101137.webp",
+          "calories": 250,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101138",
+          "name": "Cold Brew",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101138.webp",
+          "calories": 15,
+          "allergens": []
+        },
+        {
+          "id": "101140",
+          "name": "Karamel Frappuccino",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101140.webp",
+          "calories": 320,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101141",
+          "name": "Chocolate Frappuccino",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101141.webp",
+          "calories": 330,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "101142",
+          "name": "Vanilian Frappuccino",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": null,
+          "calories": 300,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101143",
+          "name": "Stawberry Frappuccino",
+          "description": "Çilekli",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/101143.webp",
+          "calories": 290,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101147",
+          "name": "XXX İce Cosmic Speacial",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/101147.webp",
+          "calories": 300,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "223335",
+          "name": "ICE TIRAMİSU LATTE",
+          "description": "",
+          "price": 230.0,
+          "priceFormatted": "230,00 ₺",
+          "image": "assets/products/223335.webp",
+          "calories": 280,
+          "allergens": [
+            "sut",
+            "gluten",
+            "yumurta"
+          ]
+        },
+        {
+          "id": "141194",
+          "name": "Ice Oreo Coffee",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/141194.webp",
+          "calories": 320,
+          "allergens": [
+            "sut",
+            "gluten",
+            "soya"
+          ]
+        },
+        {
+          "id": "183186",
+          "name": "İce Coco Chocolate",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/183186.webp",
+          "calories": 280,
+          "allergens": [
+            "sut",
+            "soya",
+            "sertkabuklu"
+          ]
+        },
+        {
+          "id": "183187",
+          "name": "İce Rubby Chocolate",
+          "description": "",
+          "price": 190.0,
+          "priceFormatted": "190,00 ₺",
+          "image": "assets/products/183187.webp",
+          "calories": 270,
+          "allergens": [
+            "sut",
+            "soya"
+          ]
+        },
+        {
+          "id": "183188",
+          "name": "İce Lotus Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183188.webp",
+          "calories": 290,
+          "allergens": [
+            "sut",
+            "gluten",
+            "soya"
+          ]
+        },
+        {
+          "id": "183189",
+          "name": "İce Rasberry Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183189.webp",
+          "calories": 230,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "183190",
+          "name": "İce Tahinli Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183190.webp",
+          "calories": 260,
+          "allergens": [
+            "sut",
+            "susam"
+          ]
+        },
+        {
+          "id": "183191",
+          "name": "İce Ballı Zencefil Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183191.webp",
+          "calories": 210,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "183192",
+          "name": "İce Toffeenut Latte",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183192.webp",
+          "calories": 260,
+          "allergens": [
+            "sut",
+            "sertkabuklu"
+          ]
+        },
+        {
+          "id": "213955",
+          "name": "ICE MATCHA LATTE",
+          "description": "",
+          "price": 230.0,
+          "priceFormatted": "230,00 ₺",
+          "image": "assets/products/213955.webp",
+          "calories": 190,
+          "allergens": [
+            "sut"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "moctails",
+      "name": "Moctails",
+      "fullName": "Moctails",
+      "subtitle": "",
+      "icon": "🍹",
+      "items": [
+        {
+          "id": "130613",
+          "name": "Look Your Wave",
+          "description": "Limon, Portakal, Ananas, Passionfruit, Mavi Kelebek Çayı, Şeker, Tonik",
+          "price": 250.0,
+          "priceFormatted": "250,00 ₺",
+          "image": "assets/products/130613.webp",
+          "calories": 165,
+          "allergens": []
+        },
+        {
+          "id": "130614",
+          "name": "Stay Loose",
+          "description": "Limon, Greyfurt, Ananas, Çilek, Şeker, Tap Sprite",
+          "price": 250.0,
+          "priceFormatted": "250,00 ₺",
+          "image": "assets/products/130614.webp",
+          "calories": 160,
+          "allergens": []
+        },
+        {
+          "id": "227973",
+          "name": "RED LIGHT",
+          "description": "Nar,Çilek,Limon,Portakal,Pation , Top Sprite, Böğürtlen",
+          "price": 250.0,
+          "priceFormatted": "250,00 ₺",
+          "image": "assets/products/227973.webp",
+          "calories": 170,
+          "allergens": []
+        },
+        {
+          "id": "155328",
+          "name": "Green Way",
+          "description": "ELMA, LİMON , ŞEKER, PATİON, PORTAKAL, MANGO",
+          "price": 250.0,
+          "priceFormatted": "250,00 ₺",
+          "image": null,
+          "calories": 160,
+          "allergens": []
+        },
+        {
+          "id": "155329",
+          "name": "Mojito",
+          "description": "Çilek, Elma veya Karpuz",
+          "price": 250.0,
+          "priceFormatted": "250,00 ₺",
+          "image": "assets/products/155329.webp",
+          "calories": 150,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "slug": "vitamin",
+      "name": "Vitamin",
+      "fullName": "Vitamin",
+      "subtitle": "",
+      "icon": "🍊",
+      "items": [
+        {
+          "id": "183197",
+          "name": "Sıkma Portakal Suyu",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/183197.webp",
+          "calories": 110,
+          "allergens": []
+        },
+        {
+          "id": "183198",
+          "name": "Sıkma Nar Suyu",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/183198.webp",
+          "calories": 130,
+          "allergens": []
+        },
+        {
+          "id": "183199",
+          "name": "Karışık Atom",
+          "description": "Nar&Portakal",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/183199.webp",
+          "calories": 120,
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "slug": "soguk-icecek",
+      "name": "Soğuk İçecekler",
+      "fullName": "Soğuk İçecekler",
+      "subtitle": "",
+      "icon": "🥤",
+      "items": [
+        {
+          "id": "101148",
+          "name": "Limonata (Yeşil Elma-Çilek-Elma)",
+          "description": "",
+          "price": 130.0,
+          "priceFormatted": "130,00 ₺",
+          "image": "assets/products/101148.webp",
+          "calories": 120,
+          "allergens": []
+        },
+        {
+          "id": "101149",
+          "name": "Fuse Tea (Limon - Şeftali-Mango)",
+          "description": "",
+          "price": 120.0,
+          "priceFormatted": "120,00 ₺",
+          "image": "assets/products/101149.webp",
+          "calories": 90,
+          "allergens": []
+        },
+        {
+          "id": "101151",
+          "name": "Sade & Meyvelı Sodalar",
+          "description": "",
+          "price": 100.0,
+          "priceFormatted": "100,00 ₺",
+          "image": "assets/products/101151.webp",
+          "calories": 50,
+          "allergens": []
+        },
+        {
+          "id": "101152",
+          "name": "Churcıll",
+          "description": "",
+          "price": 140.0,
+          "priceFormatted": "140,00 ₺",
+          "image": "assets/products/101152.webp",
+          "calories": 90,
+          "allergens": []
+        },
+        {
+          "id": "101154",
+          "name": "Cool Lime",
+          "description": "",
+          "price": 180.0,
+          "priceFormatted": "180,00 ₺",
+          "image": "assets/products/101154.webp",
+          "calories": 90,
+          "allergens": []
+        },
+        {
+          "id": "101155",
+          "name": "Red Bull",
+          "description": "",
+          "price": 150.0,
+          "priceFormatted": "150,00 ₺",
+          "image": null,
+          "calories": 110,
+          "allergens": []
+        },
+        {
+          "id": "101156",
+          "name": "Milkshakeler(Çikolata-Karamel-Vanilya-Çilek)",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/101156.webp",
+          "calories": 400,
+          "allergens": [
+            "sut"
+          ]
+        },
+        {
+          "id": "101157",
+          "name": "Frozenler(Kivi-Limon-Mango-Çarkıfelek-Kavun-Karpuz-Vişne-Frambuaz-Special)",
+          "description": "",
+          "price": 200.0,
+          "priceFormatted": "200,00 ₺",
+          "image": "assets/products/101157.webp",
+          "calories": 180,
+          "allergens": []
+        },
+        {
+          "id": "101158",
+          "name": "Su",
+          "description": "",
+          "price": 40.0,
+          "priceFormatted": "40,00 ₺",
+          "image": "assets/products/101158.webp",
+          "calories": 0,
+          "allergens": []
+        },
+        {
+          "id": "196275",
+          "name": "COCA COLA",
+          "description": "",
+          "price": 120.0,
+          "priceFormatted": "120,00 ₺",
+          "image": null,
+          "calories": 140,
+          "allergens": []
+        },
+        {
+          "id": "196276",
+          "name": "SPRITE",
+          "description": "",
+          "price": 120.0,
+          "priceFormatted": "120,00 ₺",
+          "image": null,
+          "calories": 140,
+          "allergens": []
+        }
+      ]
+    }
+  ]
+}
