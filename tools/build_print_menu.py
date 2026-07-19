@@ -175,6 +175,9 @@ def build(make_pdf=True):
             f'<span class="cat-nm">{name}</span>'
             f'<span class="cat-ct">{len(items)}</span></h2>'
         )
+        sub = esc(c.get("subtitle", ""))
+        if sub:
+            body.append(f'<div class="cat-sub">{sub}</div>')
         for it in items:
             nm = esc(it.get("name", ""))
             algs = it.get("allergens", []) or []
@@ -356,6 +359,11 @@ body{
   font-size:10pt; letter-spacing:.06em; color:var(--ink);
   padding-bottom:1mm; margin-bottom:1.4mm;
   border-bottom:1.4px solid var(--ember);
+}
+.cat-sub{
+  font-style:italic; font-size:6.8pt; line-height:1.25; font-weight:400;
+  letter-spacing:.01em; color:var(--ember);
+  margin:-0.4mm 0 1.6mm; break-after:avoid; break-inside:avoid;
 }
 .cat-ico{ font-size:9pt; line-height:1; filter:saturate(.85); flex:none; }
 .cat-nm{ flex:1 1 auto; }
